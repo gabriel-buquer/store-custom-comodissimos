@@ -1,0 +1,49 @@
+{
+    "definitions": {
+        "SiteEditorIntegration": {
+            "title": "Site Editor",
+            "type": "object",
+            "properties": {
+                "image": {
+                    "title": "Imagen Principal",
+                    "$ref": "app:vtex.native-types#/definitions/url",
+                    "widget": {
+                        "ui:widget": "image-uploader"
+                    }
+                },
+                "items": {
+                    "minItems": 0,
+                    "type": "array",
+                    "title": "Articulos",
+                    "items": {
+                        "$ref": "app:agenciam3.store-custom#/definitions/SiteEditorIntegrationItems"
+                    }
+                }
+            }
+        },
+        "SiteEditorIntegrationItems": {
+            "title": "Site Editor",
+            "properties": {
+                "textoTopo": {
+                    "title": "Titulo de los articulos",
+                    "type": "string",
+                    "default": null
+                },
+                "imageItem": {
+                    "title": "Image del articulo",
+                    "$ref": "app:vtex.native-types#/definitions/url",
+                    "widget": {
+                        "ui:widget": "image-uploader"
+                    }
+                },
+                "imageItemMobile": {
+                    "title": "Image movil del articulo",
+                    "$ref": "app:vtex.native-types#/definitions/url",
+                    "widget": {
+                        "ui:widget": "image-uploader"
+                    }
+                }
+            }
+        }
+    }
+}

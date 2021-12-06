@@ -1,0 +1,26 @@
+query PRODUCT($idProduct: ID){
+  product(identifier: {field: id, value: $idProduct})
+  @context(provider: "vtex.catalog-graphql") {
+    name
+    department{
+      name
+      id
+    }
+    categoryId
+    brand{
+      name
+      keywords
+      active
+      score
+    }
+    brandId
+    isActive
+    salesChannel{
+      name
+      currencySymbol
+      currencyLocale
+      currencyDecimalDigits
+      timeZone
+    }
+  }
+}

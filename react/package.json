@@ -21,12 +21,15 @@
     "@types/react": "^16.9.31",
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
+    "agenciam3.store-custom": "https://trainingcomodissimos--agenciam3.myvtex.com/_v/private/typings/linked/v1/agenciam3.store-custom@0.0.1+build1638823684/public/@types/agenciam3.store-custom",
     "apollo-cache-inmemory": "^1.6.5",
     "apollo-client": "^2.5.1",
     "graphql": "^14.6.0",
-    "typescript": "^3.9.6",
+    "typescript": "3.9.7",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
-    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.120.0/public/@types/vtex.render-runtime",
-    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.129.0/public/@types/vtex.styleguide"
+    "vtex.native-types": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.7.5/public/@types/vtex.native-types",
+    "vtex.product-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context",
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime",
+    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.2/public/@types/vtex.styleguide"
   }
 }

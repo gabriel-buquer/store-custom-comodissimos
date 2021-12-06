@@ -1,5 +1,14 @@
 {
   "countdown": {
-    "component": "Countdown"
+    "component": "Ejemplo"
+  },
+  "site-editor-integration":{
+    "component": "SiteEditorIntegration",
+    "content": {
+      "$ref": "app:agenciam3.store-custom#/definitions/SiteEditorIntegration"
+    }
+  },
+  "product-context":{
+    "component": "ProductContext"
   }
 }
